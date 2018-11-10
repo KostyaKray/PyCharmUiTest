@@ -39,8 +39,14 @@ driver.find_element_by_css_selector("[data-test-id='compose-send-button']").clic
 sleep(15)
 driver.refresh()
 element = driver.find_element_by_css_selector("[title='hello1']")
-if element.is_displayed():
+if element.is_displayed(): 
     print('Письмо успешно доставлено')
-else: print('Письмо не доставлено')
+else: 
+    print('Письмо не доставлено')
 
 driver.quit()
+
+
+
+
+
